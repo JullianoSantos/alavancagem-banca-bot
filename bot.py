@@ -69,6 +69,6 @@ async def main():
 if __name__ == "__main__":
     import asyncio
     import asyncio
-    asyncio.get_event_loop().run_until_complete(main())
+    application.run_polling()
 
 
