@@ -63,9 +63,10 @@ async def main():
     app.add_handler(CommandHandler("lucrohoje", lucrohoje_handler))
     app.add_handler(CommandHandler("perdahoje", perdahoje_handler))
     print("🤖 Bot iniciado!")
-    await app.run_polling()
+    app.run_polling()
+
 
 # === EXECUTAR ===
 if __name__ == "__main__":
     import asyncio
-    asyncio.get_event_loop().run_until_complete(main())
+    asyncio.run(main())
