@@ -1,4 +1,3 @@
-
 import logging
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
@@ -68,7 +67,4 @@ async def main():
 
 if __name__ == "__main__":
     import asyncio
-    import asyncio
-    application.run_polling()
-
-
+    asyncio.run(main())
