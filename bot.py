@@ -65,6 +65,7 @@ async def main():
     print("🤖 Bot iniciado!")
     await app.run_polling()
 
+# === EXECUTAR ===
 if __name__ == "__main__":
     import asyncio
     asyncio.run(main())
